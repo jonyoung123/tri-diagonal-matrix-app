@@ -1,0 +1,88 @@
+:root{
+    --bg-color: rgb(236, 236, 34);
+}
+@viewport{width: device-width; zoom: 1.0;}
+@-ms-viewport{width: device-width;}
+html,
+body{width: 100%; height: 100%;}
+body{
+    font-family: "Muli", "Helvitica", "Arial", "Sans-serif";
+}
+.header{background-color: azure; position: fixed; margin-top: -8px; width: 100%; display: inline-flex;}
+.header #nav,#img{display: inline-flex; margin-left: 3%; }
+.header #img{align-self: flex-start; height: 50px; width: 60px; }
+#nav{font-size: 15px; text-align: center; font-weight: 200;}
+#b{padding-left: 20px;}
+#c{padding-left: 20px;}
+a{text-decoration: none; color: black; transition: all 0.35s; -webkit-transition: all 0.35s;}
+a:visited{color: navy;}
+a:hover{color: black;}
+.main{padding-top: 30px; width: 100%;}
+.main #description{background-image: linear-gradient(rgb(33, 141, 33), rgb(102, 102, 219)); width: 100%;}
+#descriptions{font-size: 15px; max-width: 60%;  padding-top: 50px; padding-left: 20%; text-align: center;
+margin-bottom: 5%; color: aqua;}
+#input{ height: 40px; border-radius: 50px; font-size: larger; font-weight: 800; margin-left: 35%; 
+    background: none; margin-bottom: 5%; color: aqua; border: 2px solid ;}
+#img1{margin-left: 8%;}
+#download{background-color: var(--bg-color); margin-top: -30px; }
+#discover{padding-top: 5%; text-align: center; font-size: 23px; font-weight: 100;
+    margin-left: 25%; max-width: 50%; font-weight: 400;}
+.c{text-align: center; font-size: 15px; margin-top: -4px;}
+#playstore{margin-left: 35%; padding-bottom: 5%;}
+#features{padding-top: 5%; background-color: azure;}
+#f{text-align: center; margin-left: 0; font-size: 21px;}
+#g{text-align: center; font-size: 13px;}
+#feature{margin-top: 5%; padding-bottom: 5%;}
+#i{width: 60px; height: 60px; margin-left: 50%;}
+.j{font-size: 21px; text-align: center; max-width: 60%; margin-left: 20%; padding-left: 2%; font-weight: 700;}
+.k{font-size: 15px; text-align: center; max-width: 35%; padding-left: 35%;}
+.x{margin-top: 5%;}
+.start{background-image: linear-gradient(rgb(224, 104, 228), rgb(159, 159, 248));}
+#image{margin-top: -5%; width: 100%; height: 300px;}
+#start{padding-top: 5%; padding-bottom: 5%; font-size: 17px;}
+.y{font-size: 20px; text-align: center; margin-left: -50px;}
+#z{border-radius: 50px; margin-left: 35%; height: 40px; border: 2px solid ; font-weight: 600; margin-top: 3%; margin-bottom: 3%;}
+#contact{background-color: var(--bg-color); margin-top: -6%; padding-top: 3%; padding-bottom: 5%;}
+#q{font-size: 25px; font-weight: 700; margin-left: 25%; word-spacing: 8px;}
+#icons{display: inline; padding-left: 22%; padding-top: 2%;}
+#footer{background-color: black; color: azure; padding-top: 3%; padding-bottom: 3%; font-size: large; margin-top: -3%;}
+
+@media screen and (min-width: 600px) and (max-width: 789px){
+    #img1{margin-left: 17%;}
+}
+@media screen and (min-width: 790px) and (max-width: 850px){
+    #input{margin-left: 38%;}
+    #img1{margin-left: 19%;}
+    #z{margin-left: 36%;}
+    #q{margin-left: 30%;}
+    #icons{margin-left: 5%;}
+}
+@media screen and (min-width: 851px) and (max-width: 1000px){
+    #input{margin-left: 40%;}
+    #img1{margin-left: 25%;}
+    #z{margin-left: 39%;}
+    #q{margin-left: 34%;}
+    #icons{margin-left: 9%;}
+}
+@media screen and (min-width: 1001px) and (max-width: 1099px){
+    #input{margin-left: 41%;}
+    #img1{margin-left: 30%;}
+    #z{margin-left: 41%;}
+    #q{margin-left: 37%;}
+    #icons{margin-left: 12%;}
+}
+@media screen and (min-width: 1100px){
+    body{ width: 100%;}
+#nav{font-size: 17px; text-align: center; font-weight: 400;}
+#descriptions{font-size: 17px; max-width: 40%;  padding-top: 50px; padding-left: 30%; text-align: center;
+margin-bottom: 5%; color: aqua;}
+#input{width: 200px; height: 40px; border-radius: 50px; font-size: larger; font-weight: 800; margin-left: 42%; 
+    background: none; margin-bottom: 5%; color: aqua; border: 2px solid ;}
+#img1{margin-left: 33%;}
+#image{margin-top: -5%; width: 100%; height: 400px;}
+#z{border-radius: 50px; margin-left: 45%; height: 40px; border: 2px solid ; font-weight: 600; margin-top: 3%; margin-bottom: 3%;}
+#contact{background-color: var(--bg-color); margin-top: -6%; padding-top: 3%; padding-bottom: 5%;}
+#q{font-size: xx-large; margin-left: 40%; word-spacing: 8px;}
+#icons{display: inline; justify-content: space-evenly; padding-left: 40%; padding-top: 2%;}
+}
+@media screen and (max-width: 559px){.header{margin-left: -2%;}}
