@@ -11,7 +11,7 @@ body{
 .header{background-color: azure; position: fixed; margin-top: -8px; width: 100%; display: inline-flex;}
 .header #nav,#img{display: inline-flex; margin-left: 3%; }
 .header #img{align-self: flex-start; height: 50px; width: 60px; }
-#nav{font-size: 15px; text-align: center; font-weight: 200;}
+#nav{font-size: 21px; text-align: center; font-weight: 600;}
 #b{padding-left: 20px;}
 #c{padding-left: 20px;}
 a{text-decoration: none; color: black; transition: all 0.35s; -webkit-transition: all 0.35s;}
@@ -48,11 +48,12 @@ margin-bottom: 5%; color: aqua;}
 #footer{background-color: black; color: azure; padding-top: 3%; padding-bottom: 3%; font-size: large; margin-top: -3%;}
 
 @media screen and (min-width: 600px) and (max-width: 789px){
-    #img1{margin-left: 17%;}
+    #img1{margin-left: 16%;}
+    #icons{margin-left: 3%;}
 }
 @media screen and (min-width: 790px) and (max-width: 850px){
     #input{margin-left: 38%;}
-    #img1{margin-left: 19%;}
+    #img1{magin-left: 18%;}
     #z{margin-left: 36%;}
     #q{margin-left: 30%;}
     #icons{margin-left: 5%;}
@@ -73,7 +74,7 @@ margin-bottom: 5%; color: aqua;}
 }
 @media screen and (min-width: 1100px){
     body{ width: 100%;}
-#nav{font-size: 17px; text-align: center; font-weight: 400;}
+#nav{font-size: 23px; text-align: center; font-weight: 600;}
 #descriptions{font-size: 17px; max-width: 40%;  padding-top: 50px; padding-left: 30%; text-align: center;
 margin-bottom: 5%; color: aqua;}
 #input{width: 200px; height: 40px; border-radius: 50px; font-size: larger; font-weight: 800; margin-left: 42%; 
